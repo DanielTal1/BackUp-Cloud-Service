@@ -5,6 +5,7 @@ Works in both windows and Linux, written in Python using Watchdog library.
 
 ## How to run  
 
+### How to run client
 client.py - client running with args:  
 1. server's IP address  
 2. server's port  
@@ -18,6 +19,7 @@ If there is no last argument, the server randomize ID for the client, and copy a
 After the data transferring in each option, the client code is monitoring changes in the directory registered to the service  
 Every change in client's dir appear in client's clone directory on the server.  
 
+### How to run server
 server.py - server running with args - server's port.  
 
 Server accept client by client and listen to changes. When change happend on client's directory, it gets all the data about the change from the client.   
