@@ -1,4 +1,4 @@
-# BackUp-Cloud-Service
+# Cloud-Service
 
 Cloud like backup service for files and folders.  
 Works in both windows and Linux, written in Python using Watchdog library.  
